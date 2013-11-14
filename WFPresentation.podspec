@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
 		:branch => 'develop'
 	}
 	s.platform	= :ios, '5.0'
-	s.requres_arc	= true
+	s.requires_arc	= true
 	s.source_files	= 'Bindings/Objective-C/WFPresentation/*.{h,m}'
 end
